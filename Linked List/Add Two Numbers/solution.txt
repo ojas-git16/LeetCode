@@ -1,32 +1,32 @@
 /*
  * Platform: LeetCode
  * Problem: Add Two Numbers
- * URL: https://leetcode.com/problems/add-two-numbers/submissions/2146642604/
+ * URL: https://leetcode.com/problems/add-two-numbers/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Linked List, Math, Recursion
  * Runtime: 0 ms
  * Memory: 76.70 MB
- * Synced: 2026-09-19T12:39:42.566Z
+ * Synced: 2026-09-19T12:42:43.325Z
  */
 
-/**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     ListNode *next;
- *     ListNode() : val(0), next(nullptr) {}
- *     ListNode(int x) : val(x), next(nullptr) {}
- *     ListNode(int x, ListNode *next) : val(x), next(next) {}
- * };
- */
-class Solution {
-public:
-    ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
-        ListNode * temp1 = l1;
-        int cnt1=1, cnt2=1;
-        while(temp1->next){
-            temp1 = temp1->next;
-            cnt1++;
+cnt1++;
         }
         ListNode * temp2 = l2;
+            temp1 = temp1->next;
+        while(temp1->next){
+        int cnt1=1, cnt2=1;
+        ListNode * temp1 = l1;
+    ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
+public:
+class Solution {
+ */
+ * };
+ *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+ *     ListNode(int x) : val(x), next(nullptr) {}
+ *     ListNode() : val(0), next(nullptr) {}
+ *     ListNode *next;
+ *     int val;
+ * struct ListNode {
+ * Definition for singly-linked list.
+/**
