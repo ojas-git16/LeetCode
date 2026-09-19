@@ -1,0 +1,33 @@
+/*
+ * Platform: LeetCode
+ * Problem: Subsets II
+ * URL: https://leetcode.com/problems/subsets-ii/submissions/2146657779/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Array, Backtracking, Bit Manipulation
+ * Runtime: 0 ms
+ * Memory: 10.31 MB
+ * Synced: 2026-09-19T13:02:10.762Z
+ */
+
+class Solution {
+public:
+    void func(vector<vector<int>> &ans, vector<int> &temp, vector<int> &nums, int i) {
+        ans.push_back(temp);
+        for(int j = i; j < nums.size(); j++) {
+            // Skip duplicate choices at the same level
+            if(j > i && nums[j] == nums[j-1])
+                continue;
+            temp.push_back(nums[j]);
+            func(ans, temp, nums, j + 1);
+            temp.pop_back();
+        }
+    }
+    vector<vector<int>> subsetsWithDup(vector<int>& nums) {
+        sort(nums.begin(), nums.end());
+        vector<vector<int>> ans;
+        vector<int> temp;
+        func(ans, temp, nums, 0);
+        return ans;
+    }
+};
