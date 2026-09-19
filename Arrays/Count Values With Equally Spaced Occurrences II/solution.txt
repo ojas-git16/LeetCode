@@ -1,0 +1,32 @@
+/*
+ * Platform: LeetCode
+ * Problem: Count Values With Equally Spaced Occurrences II
+ * URL: https://leetcode.com/problems/count-values-with-equally-spaced-occurrences-ii/submissions/2146659244/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Array, Hash Table
+ * Runtime: 211 ms
+ * Memory: 293.99 MB
+ * Synced: 2026-09-19T13:03:51.331Z
+ */
+
+class Solution {
+public:
+    int countSpecialIntegers(vector<int>& nums) {
+        unordered_map<int, vector<int>> v;
+        for(int i = 0; i < nums.size(); i++)
+            v[nums[i]].push_back(i);
+        int ans = 0;
+        for(auto &it : v) {
+            vector<int> &idx = it.second;
+            if(idx.size() < 3)
+                continue;
+            int gap = idx[1] - idx[0];
+            bool sp = true;
+            for(int i = 2; i < idx.size(); i++) 
+                if(idx[i] - idx[i - 1] != gap) {
+                    sp = false;
+                    break;
+                }
+            if(sp)    ans++;
+        }
