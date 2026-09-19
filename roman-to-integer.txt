@@ -1,0 +1,32 @@
+/*
+ * Platform: LeetCode
+ * Problem: 0
+ * URL: https://leetcode.com/problems/roman-to-integer/submissions/2146666468/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Uncategorized
+ * Runtime: 4 ms
+ * Memory: 13.46 MB
+ * Synced: 2026-09-19T13:13:45.635Z
+ */
+
+class Solution {
+public:
+    int romanToInt(string s) {
+        int res = 0;
+        unordered_map<char, int> roman = {
+            {'I', 1},
+            {'V', 5},
+            {'X', 10}, 
+            {'L', 50},
+            {'C', 100},
+            {'D', 500},
+            {'M', 1000}
+        };
+
+        for (int i = 0; i < s.size() - 1; i++) {
+            if (roman[s[i]] < roman[s[i + 1]]) {
+                res -= roman[s[i]];
+            } else {
+                res += roman[s[i]];
+            }
