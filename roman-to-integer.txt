@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
- * Problem: 0
- * URL: https://leetcode.com/problems/roman-to-integer/submissions/2146666468/
+ * Problem: Roman to Integer
+ * URL: https://leetcode.com/problems/roman-to-integer/submissions/2146667461/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Uncategorized
- * Runtime: 4 ms
- * Memory: 13.46 MB
- * Synced: 2026-09-19T13:13:45.635Z
+ * Runtime: 12 ms
+ * Memory: 13.54 MB
+ * Synced: 2026-09-19T13:14:35.683Z
  */
 
 class Solution {
