@@ -1,16 +1,15 @@
 {
-  "submissionTimestamp": "2026-09-19T13:00:39.046Z",
+  "submissionTimestamp": "2026-09-19T13:02:41.518Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
     "Array",
-    "Backtracking",
-    "Bit Manipulation"
+    "Hash Table"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "0",
-  "problemUrl": "https://leetcode.com/problems/subsets-ii/",
-  "submissionId": "3nhyk4"
+  "problemUrl": "https://leetcode.com/problems/count-values-with-equally-spaced-occurrences-ii/description/",
+  "submissionId": "1a8q54"
 }
