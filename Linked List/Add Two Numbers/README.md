@@ -6,8 +6,8 @@
 - Topics: Linked List, Math, Recursion
 - Runtime: 0 ms
 - Memory: 76.70 MB
-- Problem URL: https://leetcode.com/problems/add-two-numbers/submissions/2146642604/
-- Synced: 2026-09-19T12:39:42.566Z
+- Problem URL: https://leetcode.com/problems/add-two-numbers/
+- Synced: 2026-09-19T12:42:43.325Z
 
 ## Problem Description
 
