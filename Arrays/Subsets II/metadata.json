@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-09-19T13:02:10.762Z",
+  "runtime": "0 ms",
+  "memoryUsage": "10.31 MB",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Backtracking",
+    "Bit Manipulation"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Subsets II",
+  "problemUrl": "https://leetcode.com/problems/subsets-ii/submissions/2146657779/",
+  "submissionId": "hyebpd"
+}
