@@ -1,33 +1,32 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/problems/subsets-ii/
+ * URL: https://leetcode.com/problems/count-values-with-equally-spaced-occurrences-ii/description/
  * Language: Problem List
  * Difficulty: Medium
- * Topics: Array, Backtracking, Bit Manipulation
+ * Topics: Array, Hash Table
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-19T13:00:39.046Z
+ * Synced: 2026-09-19T13:02:41.518Z
  */
 
 class Solution {
 public:
-    void func(vector<vector<int>> &ans, vector<int> &temp, vector<int> &nums, int i) {
-        ans.push_back(temp);
-        for(int j = i; j < nums.size(); j++) {
-            // Skip duplicate choices at the same level
-            if(j > i && nums[j] == nums[j-1])
+    int countSpecialIntegers(vector<int>& nums) {
+        unordered_map<int, vector<int>> v;
+        for(int i = 0; i < nums.size(); i++)
+            v[nums[i]].push_back(i);
+        int ans = 0;
+        for(auto &it : v) {
+            vector<int> &idx = it.second;
+            if(idx.size() < 3)
                 continue;
-            temp.push_back(nums[j]);
-            func(ans, temp, nums, j + 1);
-            temp.pop_back();
+            int gap = idx[1] - idx[0];
+            bool sp = true;
+            for(int i = 2; i < idx.size(); i++) 
+                if(idx[i] - idx[i - 1] != gap) {
+                    sp = false;
+                    break;
+                }
+            if(sp)    ans++;
         }
-    }
-    vector<vector<int>> subsetsWithDup(vector<int>& nums) {
-        sort(nums.begin(), nums.end());
-        vector<vector<int>> ans;
-        vector<int> temp;
-        func(ans, temp, nums, 0);
-        return ans;
-    }
-};
