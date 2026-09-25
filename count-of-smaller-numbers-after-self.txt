@@ -7,7 +7,7 @@
  * Topics: Array, Binary Search, Divide and Conquer, Binary Indexed Tree, Segment Tree, Merge Sort, Ordered Set, Treap
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-25T17:11:55.458Z
+ * Synced: 2026-09-25T17:12:54.448Z
  */
 
 class Solution {
