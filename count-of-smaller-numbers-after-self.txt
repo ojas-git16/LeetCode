@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
- * Problem: 315. Count of Smaller Numbers After Self
+ * Problem: Count of Smaller Numbers After Self
  * URL: https://leetcode.com/problems/count-of-smaller-numbers-after-self/description/
  * Language: Problem List
  * Difficulty: Hard
  * Topics: Array, Binary Search, Divide and Conquer, Binary Indexed Tree, Segment Tree, Merge Sort, Ordered Set, Treap
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-25T17:44:45.494Z
+ * Synced: 2026-09-25T17:49:44.461Z
  */
 
 Input: nums = [5,2,6,1]
