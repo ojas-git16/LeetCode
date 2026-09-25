@@ -1,18 +1,19 @@
 /*
  * Platform: LeetCode
- * Problem: Count of Smaller Numbers After Self
+ * Problem: 315. Count of Smaller Numbers After Self
  * URL: https://leetcode.com/problems/count-of-smaller-numbers-after-self/description/
  * Language: Problem List
  * Difficulty: Hard
  * Topics: Array, Binary Search, Divide and Conquer, Binary Indexed Tree, Segment Tree, Merge Sort, Ordered Set, Treap
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-25T17:42:54.449Z
+ * Synced: 2026-09-25T17:44:45.494Z
  */
 
-class Solution {
-public:
-    vector<int> countSmaller(vector<int>& nums) {
-        
-    }
-};
+Input: nums = [5,2,6,1]
+Output: [2,1,1,0]
+Explanation:
+To the right of 5 there are 2 smaller elements (2 and 1).
+To the right of 2 there is only 1 smaller element (1).
+To the right of 6 there is 1 smaller element (1).
+To the right of 1 there is 0 smaller element.
