@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
- * Problem: 0
- * URL: https://leetcode.com/problems/count-of-smaller-numbers-after-self/description/
+ * Problem: Count of Smaller Numbers After Self
+ * URL: https://leetcode.com/problems/count-of-smaller-numbers-after-self/
  * Language: Problem List
  * Difficulty: Hard
  * Topics: Array, Binary Search, Divide and Conquer, Binary Indexed Tree, Segment Tree, Merge Sort, Ordered Set, Treap
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-27T14:36:52.714Z
+ * Synced: 2026-09-27T14:37:40.751Z
  */
 
 class Solution {
