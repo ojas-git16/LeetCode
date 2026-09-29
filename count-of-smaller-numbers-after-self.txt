@@ -7,12 +7,13 @@
  * Topics: Array, Binary Search, Divide and Conquer, Binary Indexed Tree, Segment Tree, Merge Sort, Ordered Set, Treap
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-28T10:14:52.739Z
+ * Synced: 2026-09-29T11:18:29.768Z
  */
 
-class Solution {
-public:
-    vector<int> countSmaller(vector<int>& nums) {
-        
-    }
-};
+Input: nums = [5,2,6,1]
+Output: [2,1,1,0]
+Explanation:
+To the right of 5 there are 2 smaller elements (2 and 1).
+To the right of 2 there is only 1 smaller element (1).
+To the right of 6 there is 1 smaller element (1).
+To the right of 1 there is 0 smaller element.
