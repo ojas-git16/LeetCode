@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
- * Problem: Climbing Stairs
- * URL: https://leetcode.com/problems/climbing-stairs/
+ * Problem: Solution Video Link
+ * URL: https://leetcode.com/problems/climbing-stairs/solutions/8511832/video-dynamic-programming-solution-by-ni-zbvi/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Math, Dynamic Programming, Memoization
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-10-05T14:45:30.706Z
+ * Synced: 2026-10-05T14:46:16.465Z
  */
 
 class Solution {
