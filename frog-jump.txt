@@ -1,0 +1,18 @@
+/*
+ * Platform: LeetCode
+ * Problem: 0
+ * URL: https://leetcode.com/problems/frog-jump/description/
+ * Language: Problem List
+ * Difficulty: Hard
+ * Topics: Array, Dynamic Programming
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-05T14:34:32.748Z
+ */
+
+class Solution {
+public:
+    bool canCross(vector<int>& stones) {
+        
+    }
+};
