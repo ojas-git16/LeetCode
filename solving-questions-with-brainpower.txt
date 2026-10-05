@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Solving Questions With Brainpower
- * URL: https://leetcode.com/problems/solving-questions-with-brainpower/
+ * URL: https://leetcode.com/problems/solving-questions-with-brainpower/submissions/2163430559/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Dynamic Programming
  * Runtime: 4 ms
- * Memory: N/A
- * Synced: 2026-10-05T17:33:55.274Z
+ * Memory: 122.89 MB
+ * Synced: 2026-10-05T17:35:00.316Z
  */
 
 public:
