@@ -7,7 +7,7 @@
  * Topics: Array, Dynamic Programming
  * Runtime: 4 ms
  * Memory: N/A
- * Synced: 2026-10-05T17:31:49.425Z
+ * Synced: 2026-10-05T17:33:55.274Z
  */
 
 public:
@@ -29,3 +29,4 @@ public:
             if(nextidx < n)
                 dp[i] += nxt[nextidx];
 };
+class Solution {
