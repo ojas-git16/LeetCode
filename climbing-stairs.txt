@@ -1,0 +1,18 @@
+/*
+ * Platform: LeetCode
+ * Problem: 0
+ * URL: https://leetcode.com/problems/climbing-stairs/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Math, Dynamic Programming, Memoization
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-05T14:43:18.617Z
+ */
+
+class Solution {
+public:
+    int climbStairs(int n) {
+        
+    }
+};
