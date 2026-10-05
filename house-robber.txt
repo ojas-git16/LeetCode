@@ -1,26 +1,28 @@
 /*
  * Platform: LeetCode
- * Problem: 0
- * URL: https://leetcode.com/problems/house-robber/description/
+ * Problem: House Robber
+ * URL: https://leetcode.com/problems/house-robber/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Dynamic Programming
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-10-05T17:36:08.495Z
+ * Synced: 2026-10-05T17:51:08.913Z
  */
 
 class Solution {
 public:
     int rob(vector<int>& nums) {
-        int sum=0;
-        int s1=0, s2;
-        for(int i=0; i<nums.size(); i++){
-            sum+=nums[i];
-            if(i%2==0)
-                s1+=nums[i];
+        vector<int> dp(n,0);
+        dp[0]=nums[0];
+        dp[1]=nums[1];
+        for(int i=3; i<n; i++){
+            dp[i]=nums[i]+max(dp[i-2],dp[i-3]);
         }
-        s2=sum-s1;
-        return s1>s2 ? s1 : s2;
     }
+        dp[2]=nums[0]+nums[2];
+        if(n==1)  return nums[0];
+        if(n==2)  return max(nums[0],nums[1]);
+        return max(dp[n-1],dp[n-2]);
+        int n = nums.size();
 };
