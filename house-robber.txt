@@ -7,7 +7,7 @@
  * Topics: Array, Dynamic Programming
  * Runtime: 0 ms
  * Memory: 10.13 MB
- * Synced: 2026-10-05T17:55:28.082Z
+ * Synced: 2026-10-05T17:56:44.732Z
  */
 
 class Solution {
@@ -20,6 +20,6 @@ public:
             prev2 = prev1;
             prev1 = curr;
         }
-        return prev1;
+        return prev1;   //prev1 = curr (line 9)
     }
 };
