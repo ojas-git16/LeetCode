@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
- * Problem: House Robber
- * URL: https://leetcode.com/problems/house-robber/
+ * Problem: 0
+ * URL: https://leetcode.com/problems/house-robber/description/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Dynamic Programming
- * Runtime: 0 ms
- * Memory: 10.13 MB
- * Synced: 2026-10-05T17:56:44.732Z
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-05T18:01:53.497Z
  */
 
 class Solution {
