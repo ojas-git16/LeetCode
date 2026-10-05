@@ -1,0 +1,26 @@
+/*
+ * Platform: LeetCode
+ * Problem: 0
+ * URL: https://leetcode.com/problems/house-robber/description/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Array, Dynamic Programming
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-05T17:36:08.495Z
+ */
+
+class Solution {
+public:
+    int rob(vector<int>& nums) {
+        int sum=0;
+        int s1=0, s2;
+        for(int i=0; i<nums.size(); i++){
+            sum+=nums[i];
+            if(i%2==0)
+                s1+=nums[i];
+        }
+        s2=sum-s1;
+        return s1>s2 ? s1 : s2;
+    }
+};
