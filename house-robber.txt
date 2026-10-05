@@ -6,23 +6,20 @@
  * Difficulty: Medium
  * Topics: Array, Dynamic Programming
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-10-05T17:53:05.201Z
+ * Memory: 10.13 MB
+ * Synced: 2026-10-05T17:55:28.082Z
  */
 
 class Solution {
 public:
     int rob(vector<int>& nums) {
-        int n = nums.size();
-        vector<int> dp(n,0);
-        if(n==1)  return nums[0];
-        if(n==2)  return max(nums[0],nums[1]);
-        dp[0]=nums[0];
-        dp[1]=nums[1];
-        dp[2]=nums[0]+nums[2];
-        for(int i=3; i<n; i++){
-            dp[i]=nums[i]+max(dp[i-2],dp[i-3]);
+        int prev2 = 0;
+        int prev1 = 0;
+        for(int x : nums) {
+            int curr = max(prev1, prev2 + x);
+            prev2 = prev1;
+            prev1 = curr;
         }
-        return max(dp[n-1],dp[n-2]);
+        return prev1;
     }
 };
