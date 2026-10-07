@@ -7,7 +7,7 @@
  * Topics: Array, Dynamic Programming
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-07T11:47:11.529Z
+ * Synced: 2026-10-07T11:47:56.537Z
  */
 
 class Solution {
@@ -19,4 +19,5 @@ public:
                 
         }
     }
+        int min = 0;
 };
