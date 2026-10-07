@@ -7,13 +7,16 @@
  * Topics: Array, Dynamic Programming
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-07T11:45:41.528Z
+ * Synced: 2026-10-07T11:46:26.528Z
  */
 
 class Solution {
 public:
     int maximumJumps(vector<int>& nums, int target) {
         vector<int> dp(n, 0);
+        for(int i=n-2; i>=0; i--){
+            if(target>=abs(nums[i]-nums[j]))
+                
+        }
     }
-        for(int i=)
 };
