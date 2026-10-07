@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Maximum Number of Jumps to Reach the Last Index
- * URL: https://leetcode.com/problems/maximum-number-of-jumps-to-reach-the-last-index/
+ * URL: https://leetcode.com/problems/maximum-number-of-jumps-to-reach-the-last-index/description/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Dynamic Programming
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-07T11:41:53.528Z
+ * Synced: 2026-10-07T11:42:38.528Z
  */
 
 class Solution {
