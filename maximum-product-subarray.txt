@@ -7,7 +7,7 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-10T06:22:08.802Z
+ * Synced: 2026-10-10T06:22:54.803Z
  */
 
 int global_max = nums[0];
@@ -28,11 +28,13 @@ int global_max = nums[0];
     cout << global_max << "\n";
 
     return 0;
-}
-
     for(int i = 0; i < n; i++) {
     vector<int> nums(n); 
 
     cin>>n;
     int n;
 int main() {
+
+using namespace std;
+
+#include <algorithm>
