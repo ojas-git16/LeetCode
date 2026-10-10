@@ -1,0 +1,38 @@
+/*
+ * Platform: HackerRank
+ * Problem: Cup Game
+ * URL: https://www.hackerrank.com/contests/c2c-contest-second-year-4/challenges/cup-game-1-1/problem
+ * Language: C++11
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-10T04:50:34.662Z
+ */
+
+continue;
+        }
+            if(pos==3)
+            else if(pos==2)
+                pos=1;
+            else
+                pos=2;
+        else if(s[i]=='B'){
+            if(pos==1)
+                continue;
+            else if(pos==2)
+                pos=3;
+            else
+                pos=2;
+        }
+        else{
+            if(pos==2)
+        if(s[i]=='A'){
+    for(int i=0; i<s.size(); i++){
+    cin>>s;
+    string s;
+    {int pos = 1;
+    while(T--)
+    cin>>T;
+    int T;
+int main() {
