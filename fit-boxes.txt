@@ -7,7 +7,7 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-10T06:10:15.230Z
+ * Synced: 2026-10-10T06:25:56.830Z
  */
 
 int a1 = 1, a2 = 1;
@@ -19,7 +19,7 @@ int a1 = 1, a2 = 1;
                 a1 = max(a1, ans1);
                 prev1 = i;
             }
-            else if(v1[prev1][1]<v1[i][2]){
+            else if(v1[prev1][1]<v1[i][1]){
                 ans1 = 1;
                 prev1 = i;
             }
