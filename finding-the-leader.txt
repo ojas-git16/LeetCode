@@ -1,0 +1,39 @@
+/*
+ * Platform: HackerRank
+ * Problem: Finding the Leader
+ * URL: https://www.hackerrank.com/contests/c2c-contest-second-year-4/challenges/finding-the-leader-2/problem
+ * Language: C++11
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-10T05:09:07.937Z
+ */
+
+while(T--){
+        string s;
+        cin>>s;
+        int cntl=0;
+        for(int i=0; i<n; i++){
+            if(s[i]=='L')   cntl++;
+        }
+        int maxp = cntl, cntr=0;
+        for(int i=1; i<n; i++){
+        if(s[0]=='L')       {maxp = cntl-1;     cntl--;}
+        int n;
+        cin>>n;
+        else                cntr = 1;
+            if(s[i]=='R'){
+        }
+        
+                maxp = max(maxp, cntl+cntr);
+            }
+            else{
+                cntl--;
+            }
+                cntr++;
+                maxp = max(maxp, cntl+cntr);
+        cout<<maxp;
+    } 
+    return 0;
+}
