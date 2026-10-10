@@ -1,0 +1,38 @@
+/*
+ * Platform: HackerRank
+ * Problem: Maximum Product Subarray
+ * URL: https://www.hackerrank.com/contests/c2c-contest-second-year-4/challenges/maximum-product-subarray-33-3/problem
+ * Language: C++11
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-10T06:22:08.802Z
+ */
+
+int global_max = nums[0];
+    int current_max = nums[0];
+    int current_min = nums[0];
+
+    for(int i = 1; i < n; i++) {
+        int val = nums[i];
+        if (val < 0)
+            swap(current_max, current_min);
+        current_max = max(val, current_max * val);
+        current_min = min(val, current_min * val);
+    }
+        cin >> nums[i];
+        global_max = max(global_max, current_max);
+    }
+
+    cout << global_max << "\n";
+
+    return 0;
+}
+
+    for(int i = 0; i < n; i++) {
+    vector<int> nums(n); 
+
+    cin>>n;
+    int n;
+int main() {
