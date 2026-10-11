@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
- * Problem: 0
+ * Problem: Frog Jump
  * URL: https://leetcode.com/problems/frog-jump/description/
  * Language: Problem List
  * Difficulty: Hard
  * Topics: Array, Dynamic Programming
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-11T09:30:11.827Z
+ * Synced: 2026-10-11T09:30:57.317Z
  */
 
 class Solution {
