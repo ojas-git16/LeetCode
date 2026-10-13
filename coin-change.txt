@@ -1,18 +1,18 @@
 /*
  * Platform: LeetCode
- * Problem: 0
+ * Problem: Minimum Number of Operations to Convert Time
  * URL: https://leetcode.com/problems/coin-change/description/?envType=problem-list-v2&envId=dynamic-programming
- * Language: Dynamic Programming
- * Difficulty: Medium
- * Topics: Array, Dynamic Programming, Breadth-First Search, Knapsack Problem, Complete Knapsack
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: String, Greedy
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-13T06:14:55.201Z
+ * Synced: 2026-10-13T06:23:42.007Z
  */
 
 class Solution {
 public:
-    int coinChange(vector<int>& coins, int amount) {
+    int convertTime(string current, string correct) {
         
     }
 };
