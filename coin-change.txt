@@ -1,0 +1,18 @@
+/*
+ * Platform: LeetCode
+ * Problem: 0
+ * URL: https://leetcode.com/problems/coin-change/description/?envType=problem-list-v2&envId=dynamic-programming
+ * Language: Dynamic Programming
+ * Difficulty: Medium
+ * Topics: Array, Dynamic Programming, Breadth-First Search, Knapsack Problem, Complete Knapsack
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-13T06:14:55.201Z
+ */
+
+class Solution {
+public:
+    int coinChange(vector<int>& coins, int amount) {
+        
+    }
+};
