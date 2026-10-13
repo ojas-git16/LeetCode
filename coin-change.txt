@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Coin Change
- * URL: https://leetcode.com/problems/coin-change/submissions/2170912142/?envType=problem-list-v2&envId=dynamic-programming
+ * URL: https://leetcode.com/problems/coin-change/?envType=problem-list-v2&envId=dynamic-programming
  * Language: Dynamic Programming
  * Difficulty: Medium
  * Topics: Array, Dynamic Programming, Breadth-First Search, Knapsack Problem, Complete Knapsack
  * Runtime: 0 ms
- * Memory: 17.88 MB
- * Synced: 2026-10-13T06:47:19.403Z
+ * Memory: N/A
+ * Synced: 2026-10-13T06:48:11.126Z
  */
 
 class Solution {
