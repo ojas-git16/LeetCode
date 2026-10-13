@@ -7,24 +7,20 @@
  * Topics: Array, Dynamic Programming, Breadth-First Search, Knapsack Problem, Complete Knapsack
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-10-13T06:29:35.951Z
+ * Synced: 2026-10-13T06:41:33.594Z
  */
 
 class Solution {
 public:
     int coinChange(vector<int>& coins, int amount) {
-        sort(coins.begin(), coins.end());
-        long long amt = 0;
-        for(int i=coins.size()-1; i>=0; ){
-            if(amt+coins[i] > amount)
+        vector<int> dp(amount+1 , amount+1);
+        dp[0] = 0;
+        for(int i=1; i<=amount; i++){
+            for(int coin : coins){
         }
-                i--;
-            else{
-                amt+=coins[i];
+                if(coin<=i)
             }
     }
-                coin++;
-        int coin = 0;
-        return -1;
-            if(amt == amount)   return coin;
+                    dp[i]=min(dp[i],dp[i-coin]+1);
+        return dp[amount] > amount ? -1 : dp[amount];
 };
