@@ -6,8 +6,8 @@
  * Difficulty: Medium
  * Topics: Array, Dynamic Programming, Breadth-First Search, Knapsack Problem, Complete Knapsack
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-10-13T06:43:13.186Z
+ * Memory: 17.88 MB
+ * Synced: 2026-10-13T06:45:40.594Z
  */
 
 class Solution {
