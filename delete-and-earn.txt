@@ -1,29 +1,18 @@
 /*
  * Platform: LeetCode
- * Problem: Coin Change
+ * Problem: Delete and Earn
  * URL: https://leetcode.com/problems/delete-and-earn/?envType=problem-list-v2&envId=dynamic-programming
  * Language: Dynamic Programming
  * Difficulty: Medium
- * Topics: Uncategorized
+ * Topics: Array, Hash Table, Dynamic Programming
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-13T06:50:19.286Z
+ * Synced: 2026-10-13T06:51:19.935Z
  */
 
 class Solution {
 public:
-    int coinChange(vector<int>& coins, int amount) {
-        vector<int> dp(amount+1 , amount+1);
-        dp[0] = 0;
-        for(int i=1; i<=amount; i++){
-            for(int coin : coins){
-                if(coin<=i)
-                    dp[i]=min(dp[i],dp[i-coin]+1);
-            }
-        }
-        return dp[amount] > amount ? -1 : dp[amount];
+    int deleteAndEarn(vector<int>& nums) {
+        
     }
 };
-
-
-dp[10] =
