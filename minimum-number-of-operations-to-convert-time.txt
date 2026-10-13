@@ -1,0 +1,18 @@
+/*
+ * Platform: LeetCode
+ * Problem: 0
+ * URL: https://leetcode.com/problems/minimum-number-of-operations-to-convert-time/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: String, Greedy
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-13T06:23:40.275Z
+ */
+
+class Solution {
+public:
+    int convertTime(string current, string correct) {
+        
+    }
+};
