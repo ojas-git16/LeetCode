@@ -7,15 +7,19 @@
  * Topics: Array, Dynamic Programming
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-15T05:44:10.285Z
+ * Synced: 2026-10-15T05:44:55.618Z
  */
 
 class Solution {
 public:
     int maxProduct(vector<int>& nums) {
+        int neg=0, zer=0;
         for(int i=0; i<nums.size(); i++){
-            if(nums[i]<0)   zer
+            if(nums[i]==0)   zer++;
+            if(nums[i]<0)  neg++;
+        }
+        if(zer == 0){
+            if()
         }
     }
-        int neg=0, zer=0;
 };
