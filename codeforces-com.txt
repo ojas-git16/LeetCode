@@ -1,0 +1,13 @@
+/*
+ * Platform: Codeforces
+ * Problem: codeforces.com
+ * URL: https://codeforces.com/enter?back=%2F&__cf_chl_tk=J4BdOql6CK0abgds78lJ4JGLwT8U6ThyxGrHvnpAs.I-1792039461-1.0.1.1-fXt9rtI2QtnhvPQa6NNZb154DowZdX0mxtsutiD3G.c
+ * Language: Text
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-15T04:44:23.611Z
+ */
+
+a4ac2b077d65564c
