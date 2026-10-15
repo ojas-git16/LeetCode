@@ -7,7 +7,7 @@
  * Topics: Array, Dynamic Programming
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-15T05:44:55.618Z
+ * Synced: 2026-10-15T05:45:45.209Z
  */
 
 class Solution {
@@ -19,7 +19,7 @@ public:
             if(nums[i]<0)  neg++;
         }
         if(zer == 0){
-            if()
+            if(neg=1)
         }
     }
 };
