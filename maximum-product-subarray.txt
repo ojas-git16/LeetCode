@@ -5,28 +5,25 @@
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Dynamic Programming
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-10-15T05:51:07.570Z
+ * Synced: 2026-10-15T05:57:05.754Z
  */
 
-class Solution {
-public:
-    int maxProduct(vector<int>& nums) {
-        int neg=0, zer=0;
-        int ans = INT_MIN;
-        for(int i=0; i<nums.size(); ){
-
-            for(j=i; nums[j]!=0 && j<nums.size(); j++){
-                pre*=nums[j];
+}
             }
-            int pre=1, suff=1;
-                ans = max(ans,pre);
-            int j = i;
-            for(k=j-1; k>=i; k--){
-                pre*=nums[k];
-                ans = max(ans,suff);
+            pre*=nums[i];
+            ans = max(pre,ans);
+        for(int i=n-1; i>=0; i--){
+            if(nums[i]==0){
+                suff = 1;
             }
+                continue;
+            suff*=nums[i];
+            ans = max(suff,ans);
         }
+        if(haszero)     return max(ans,0);
     }
-            i=j+1;
+                continue;
+        return ans;
+};
