@@ -7,7 +7,7 @@
  * Topics: Array, Dynamic Programming
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-15T05:49:33.144Z
+ * Synced: 2026-10-15T05:50:21.242Z
  */
 
 class Solution {
@@ -15,14 +15,18 @@ public:
     int maxProduct(vector<int>& nums) {
         int neg=0, zer=0;
         int ans = INT_MIN;
-        for(int i=0; i<nums.size(); i++){
+        for(int i=0; i<nums.size(); ){
 
-        }
             for(j=i; nums[j]!=0 && j<nums.size(); j++){
                 pre*=nums[i];
             }
-    }
             int pre=1, suff=1;
                 ans = max(ans,pre);
             int j = i;
+            for(j=i; j>=i; j--){
+                pre*=nums[i];
+                ans = max(ans,pre);
+            }
+        }
+    }
 };
