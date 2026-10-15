@@ -1,18 +1,21 @@
 /*
  * Platform: LeetCode
- * Problem: 0
- * URL: https://leetcode.com/problems/maximum-product-subarray/description/
+ * Problem: Maximum Product Subarray
+ * URL: https://leetcode.com/problems/maximum-product-subarray/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Dynamic Programming
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-15T05:43:25.145Z
+ * Synced: 2026-10-15T05:44:10.285Z
  */
 
 class Solution {
 public:
     int maxProduct(vector<int>& nums) {
-        
+        for(int i=0; i<nums.size(); i++){
+            if(nums[i]<0)   zer
+        }
     }
+        int neg=0, zer=0;
 };
