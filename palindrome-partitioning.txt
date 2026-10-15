@@ -1,0 +1,14 @@
+/*
+ * Platform: LeetCode
+ * Problem: 131. Palindrome Partitioning
+ * URL: https://leetcode.com/problems/palindrome-partitioning/description/
+ * Language: Text
+ * Difficulty: Medium
+ * Topics: String, Dynamic Programming, Backtracking
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-15T05:24:57.292Z
+ */
+
+Input: s = "aab"
+Output: [["a","a","b"],["aa","b"]]
