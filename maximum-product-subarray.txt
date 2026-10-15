@@ -7,7 +7,7 @@
  * Topics: Array, Dynamic Programming
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-15T05:48:47.009Z
+ * Synced: 2026-10-15T05:49:33.144Z
  */
 
 class Solution {
@@ -18,9 +18,11 @@ public:
         for(int i=0; i<nums.size(); i++){
 
         }
-            for(int j=i; nums[j]!=0 && j<nums.size(); j++){
-                if()
+            for(j=i; nums[j]!=0 && j<nums.size(); j++){
+                pre*=nums[i];
             }
     }
             int pre=1, suff=1;
+                ans = max(ans,pre);
+            int j = i;
 };
