@@ -7,7 +7,7 @@
  * Topics: Stack, Tree, Depth-First Search, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-16T04:35:48.786Z
+ * Synced: 2026-10-16T04:36:44.086Z
  */
 
 vector<int> inorderTraversal(TreeNode* root) {
@@ -28,8 +28,10 @@ class Solution {
  *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
  *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
  *     TreeNode *right;
- *     TreeNode *left;
- *     int val;
- * struct TreeNode {
- * Definition for a binary tree node.
-/**
+                ptr = ptr->left;
+            }
+            ptr = st.top();
+            st.pop();
+            ans.push_back(ptr->val);
+            ptr = ptr->right;
+        }
