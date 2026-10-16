@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Happy Independence Day 2024
- * URL: https://leetcode.com/problems/lemonade-change/submissions/2173785233/
+ * URL: https://leetcode.com/problems/lemonade-change/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Greedy
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-10-16T11:32:53.478Z
+ * Synced: 2026-10-16T11:33:40.613Z
  */
 
 class Solution {
@@ -31,5 +31,5 @@ public:
                 else if(dlr5>=3)
                     dlr5-=3;
                 else    return false;
-        sort(bills.begin(), bills.end());
                 dlr10++;
+        // order of bills is to be same
