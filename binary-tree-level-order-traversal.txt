@@ -7,30 +7,29 @@
  * Topics: Tree, Breadth-First Search, Binary Tree
  * Runtime: 0 ms
  * Memory: 16.56 MB
- * Synced: 2026-10-16T12:21:56.440Z
+ * Synced: 2026-10-16T12:24:05.912Z
  */
 
-int height = hgt(root);
-    vector<vector<int>> levelOrder(TreeNode* root) {
-    void lvltrav(TreeNode * ptr, vector<vector<int>> & height, int cnt){
-    }
-        return max(hgt(ptr->left), hgt(ptr->right))+1;
-        if(ptr==NULL)   return 0;
-    int hgt(TreeNode* ptr){
-class Solution {
-public:
-        if(ptr==NULL)   return;
-    }
-        vector<vector<int>> ans(height, vector<int> (0));
-        lvltrav(root, ans, 0);
-        return ans;
-        lvltrav(ptr->left, height, cnt+1);
-        lvltrav(ptr->right, height, cnt+1);
-    }
-};
-
-
-// class Solution {
 // public:
 //     vector<vector<int>> levelOrder(TreeNode* root) {
-        height[cnt].push_back(ptr->val);
+//         vector <vector<int>> ans;
+//         if(root==NULL)  return {};
+//         queue <TreeNode *> q;
+//         q.push(root);
+//         while(!q.empty()){
+//             int sz = q.size();
+//             vector <int> lvl;
+//             for(int i=0; i<sz; i++){
+//                 TreeNode * node = q.front();
+//                 q.pop();
+//                 if(node->left != nullptr)     q.push(node->left);
+//                 if(node->right != nullptr)      q.push(node->right);
+//                 lvl.push_back(node->val);
+//             }
+//             ans.push_back(lvl);
+//         }
+//         return ans;
+// class Solution {
+
+//     }
+// };
