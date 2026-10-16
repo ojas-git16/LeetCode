@@ -7,11 +7,10 @@
  * Topics: Tree, Breadth-First Search, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-16T12:15:11.882Z
+ * Synced: 2026-10-16T12:15:57.755Z
  */
 
-};
-    }
+}
         int height = hgt(root);
     vector<vector<int>> levelOrder(TreeNode* root) {
 public:
@@ -31,6 +30,4 @@ class Solution {
         return max(hgt(ptr->left), hgt(ptr->right))+1;
     }
         if(ptr==NULL)   return 0;
-
-
-        vector<vector<int>> ans(height)
+        vector<vector<int>> ans(height, vector<int> (0,0));
