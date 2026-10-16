@@ -1,16 +1,15 @@
 /*
  * Platform: LeetCode
- * Problem: 0
- * URL: https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/
+ * Problem: Remove Duplicates from Sorted Array
+ * URL: https://leetcode.com/problems/remove-duplicates-from-sorted-array/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Two Pointers
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-16T17:01:18.304Z
+ * Synced: 2026-10-16T17:02:04.261Z
  */
 
-class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
         vector <int> v;
@@ -32,3 +31,4 @@ public:
         return count;
     }
 };
+class Solution {
