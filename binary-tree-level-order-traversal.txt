@@ -7,10 +7,9 @@
  * Topics: Tree, Breadth-First Search, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-16T12:12:04.847Z
+ * Synced: 2026-10-16T12:12:50.271Z
  */
 
-// class Solution {
 };
     }
         
@@ -28,8 +27,9 @@ class Solution {
  * struct TreeNode {
  * Definition for a binary tree node.
 
-
     int hgt(TreeNode* ptr){
-        if(ptr->left)   hgt(ptr->left);
+        if(ptr-)   l=hgt(ptr->left);
     }
-        if(ptr->right)  hgt(ptr-)
+        if(ptr->right)  r=hgt(ptr->right);
+        return max(l,r)+1;
+        int l,r;
