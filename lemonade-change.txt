@@ -1,0 +1,18 @@
+/*
+ * Platform: LeetCode
+ * Problem: 0
+ * URL: https://leetcode.com/problems/lemonade-change/description/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Array, Greedy
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-16T11:19:23.469Z
+ */
+
+class Solution {
+public:
+    bool lemonadeChange(vector<int>& bills) {
+        
+    }
+};
