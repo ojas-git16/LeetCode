@@ -1,0 +1,19 @@
+/*
+ * Platform: LeetCode
+ * Problem: 0
+ * URL: https://leetcode.com/problems/assign-cookies/description/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Array, Two Pointers, Greedy, Sorting, Quicksort
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-16T10:50:54.215Z
+ */
+
+class Solution {
+public:
+    int findContentChildren(vector<int>& g, 
+    vector<int>& s) {
+        
+    }
+};
