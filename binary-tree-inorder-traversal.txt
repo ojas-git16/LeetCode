@@ -1,16 +1,30 @@
 /*
  * Platform: LeetCode
- * Problem: Binary Tree Inorder Traversal
+ * Problem: 0
  * URL: https://leetcode.com/problems/binary-tree-inorder-traversal/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Stack, Tree, Depth-First Search, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-16T04:24:58.198Z
+ * Synced: 2026-10-16T04:25:45.247Z
  */
 
-vector<int> inorderTraversal(TreeNode* root) {
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left),
+ * right(right) {}
+ * };
+ */
+class Solution {
+public:
+    vector<int> inorderTraversal(TreeNode* root) {
         vector<int> ans;
         if (root == NULL)
             return ans;
@@ -19,17 +33,3 @@ vector<int> inorderTraversal(TreeNode* root) {
         while (ptr || !st.empty()) {
             while (ptr) {
                 st.push(ptr);
-public:
-class Solution {
- */
- * };
- * right(right) {}
- *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left),
- *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
- *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
- *     TreeNode *right;
- *     TreeNode *left;
- *     int val;
- * struct TreeNode {
- * Definition for a binary tree node.
-/**
