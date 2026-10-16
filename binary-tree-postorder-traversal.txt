@@ -7,7 +7,7 @@
  * Topics: Stack, Tree, Depth-First Search, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-16T04:58:21.308Z
+ * Synced: 2026-10-16T05:06:13.866Z
  */
 
 stack <TreeNode *> st;
