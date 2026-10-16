@@ -7,7 +7,7 @@
  * Topics: Tree, Breadth-First Search, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-16T12:10:33.587Z
+ * Synced: 2026-10-16T12:11:19.094Z
  */
 
 // class Solution {
@@ -31,5 +31,5 @@ class Solution {
 
 
     int hgt(TreeNode* ptr, int cnt){
-        if(ptr->left)   
+        if(ptr->left)   hgt(ptr->left, cnt+1);
     }
