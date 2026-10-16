@@ -1,18 +1,27 @@
 /*
  * Platform: LeetCode
- * Problem: 0
- * URL: https://leetcode.com/problems/perfect-number/description/
+ * Problem: Perfect Number
+ * URL: https://leetcode.com/problems/perfect-number/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Math
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-10-16T16:18:40.006Z
+ * Synced: 2026-10-16T16:25:31.438Z
  */
 
 class Solution {
 public:
     bool checkPerfectNumber(int num) {
-        
+        int sum = 0;
+        for(int i=1; i<=sqrt(num); i++){
+                sum+=i;
+            }
+        }
+                sum+=(num/i);
+            if(i*i == num)  sum+=i;
     }
+            else if(num%i==0){
+        return (sum==num);
+        sum-=num;
 };
