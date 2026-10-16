@@ -7,7 +7,7 @@
  * Topics: Stack, Tree, Depth-First Search, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-16T04:37:42.892Z
+ * Synced: 2026-10-16T04:38:28.538Z
  */
 
 vector<int> inorderTraversal(TreeNode* root) {
