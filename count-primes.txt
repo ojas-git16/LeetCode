@@ -1,18 +1,19 @@
 /*
  * Platform: LeetCode
  * Problem: Count Primes
- * URL: https://leetcode.com/problems/count-primes/description/
+ * URL: https://leetcode.com/problems/count-primes/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Math, Enumeration, Number Theory, Primality Test, Sieve Theory, Prime Number Sieve
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-16T16:44:29.318Z
+ * Synced: 2026-10-16T16:45:30.702Z
  */
 
 class Solution {
 public:
     int countPrimes(int n) {
-        
+        if(n<=2) return 0;
     }
+        
 };
