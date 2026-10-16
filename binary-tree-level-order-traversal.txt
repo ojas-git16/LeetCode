@@ -5,9 +5,9 @@
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Tree, Breadth-First Search, Binary Tree
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-10-16T12:21:01.877Z
+ * Runtime: 0 ms
+ * Memory: 16.56 MB
+ * Synced: 2026-10-16T12:21:56.440Z
  */
 
 int height = hgt(root);
@@ -17,20 +17,20 @@ int height = hgt(root);
         return max(hgt(ptr->left), hgt(ptr->right))+1;
         if(ptr==NULL)   return 0;
     int hgt(TreeNode* ptr){
-
 class Solution {
 public:
- */
- * };
- *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
- *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
- *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
         if(ptr==NULL)   return;
     }
         vector<vector<int>> ans(height, vector<int> (0));
         lvltrav(root, ans, 0);
-    }
         return ans;
         lvltrav(ptr->left, height, cnt+1);
+        lvltrav(ptr->right, height, cnt+1);
+    }
+};
 
+
+// class Solution {
+// public:
+//     vector<vector<int>> levelOrder(TreeNode* root) {
         height[cnt].push_back(ptr->val);
