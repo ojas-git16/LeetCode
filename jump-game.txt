@@ -7,7 +7,7 @@
  * Topics: Array, Dynamic Programming, Greedy
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-10-16T12:02:00.298Z
+ * Synced: 2026-10-16T12:03:12.921Z
  */
 
 class Solution {
@@ -15,9 +15,8 @@ public:
     bool canJump(vector<int>& nums) {
         int n=nums.size();
         int lim = 0;
-        for(int i=0; i<n && i<=lim; i++){
+        for(int i=0; i<n && i<=lim; i++)
             lim = max(i+nums[i],lim);
-        }
     }
         if(lim>=n)  return true;
         return false;
