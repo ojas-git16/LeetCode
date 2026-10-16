@@ -1,22 +1,16 @@
 /*
  * Platform: LeetCode
- * Problem: 0
- * URL: https://leetcode.com/problems/binary-tree-postorder-traversal/description/
+ * Problem: Binary Tree Postorder Traversal
+ * URL: https://leetcode.com/problems/binary-tree-postorder-traversal/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Stack, Tree, Depth-First Search, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-16T04:51:33.255Z
+ * Synced: 2026-10-16T04:55:36.413Z
  */
 
-*/
-class Solution {
-public:
-    vector<int> postorderTraversal(TreeNode* root) {
-        vector <int> ans;
-        if(root==NULL)      return ans;
-        stack <TreeNode *> st;
+stack <TreeNode *> st;
         TreeNode * ptr = root;
         while(ptr || !st.empty()){
             if(ptr){
@@ -34,3 +28,8 @@ public:
                 }
                 else
                     ptr = temp;
+            }
+        }
+        return ans;
+    }
+};
