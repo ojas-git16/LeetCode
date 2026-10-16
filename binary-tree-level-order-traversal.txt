@@ -7,14 +7,12 @@
  * Topics: Tree, Breadth-First Search, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-16T12:17:47.165Z
+ * Synced: 2026-10-16T12:18:38.580Z
  */
 
-lvltrav(root, ans, 0);
-        vector<vector<int>> ans(height, vector<int> (0,0));
-        int height = hgt(root);
+int height = hgt(root);
     vector<vector<int>> levelOrder(TreeNode* root) {
-    void lvltrav(TreeNode * ptr, )
+    void lvltrav(TreeNode * ptr, vector<vector<int>> & height, int cnt){
     }
         return max(hgt(ptr->left), hgt(ptr->right))+1;
         if(ptr==NULL)   return 0;
@@ -27,9 +25,12 @@ public:
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
  *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
- *     TreeNode *right;
- *     int val;
- *     TreeNode *left;
- * struct TreeNode {
- * Definition for a binary tree node.
-/**
+        
+    }
+        vector<vector<int>> ans(height, vector<int> (0,0));
+        lvltrav(root, ans, 0);
+    }
+};
+
+
+// class Solution {
