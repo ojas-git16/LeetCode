@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Assign Cookies
- * URL: https://leetcode.com/problems/assign-cookies/
+ * URL: https://leetcode.com/problems/assign-cookies/submissions/2173775023/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Two Pointers, Greedy, Sorting, Quicksort
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-10-16T11:13:12.121Z
+ * Memory: 44.87 MB
+ * Synced: 2026-10-16T11:18:15.096Z
  */
 
 class Solution {
