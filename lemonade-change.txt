@@ -1,18 +1,35 @@
 /*
  * Platform: LeetCode
- * Problem: 0
- * URL: https://leetcode.com/problems/lemonade-change/description/
+ * Problem: Happy Independence Day 2024
+ * URL: https://leetcode.com/problems/lemonade-change/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Greedy
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-10-16T11:19:23.469Z
+ * Synced: 2026-10-16T11:32:08.098Z
  */
 
 class Solution {
 public:
     bool lemonadeChange(vector<int>& bills) {
-        
+        int dlr5 = 0, dlr10 = 0;
+        for(int bill : bills){
+            if(bill == 5)   dlr5++;
+        }
+        return true;
+            else if(bill == 10){
+                if(dlr5>0)  dlr5--;
+                else return false;
+            }
+            else{
+                if(dlr5>0 && dlr10>0){
+            }
+                    dlr5--; dlr10--;
+                }
     }
-};
+                else if(dlr5>=3)
+                    dlr5-=3;
+                else    return false;
+        sort(bills.begin(), bills.end());
+                dlr10++;
