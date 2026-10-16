@@ -5,18 +5,26 @@
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Math, Enumeration, Number Theory, Primality Test, Sieve Theory, Prime Number Sieve
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-10-16T16:54:49.243Z
+ * Runtime: 2101 ms
+ * Memory: 7.80 MB
+ * Synced: 2026-10-16T16:55:39.743Z
  */
 
 class Solution {
 public:
     int countPrimes(int n) {
-        if(n<=2) return 0;
+        if(n <= 2) return 0;
         int ans = 1;
-        for(int i=3; i<n; i+=2){
-            
+        for(int i = 3; i < n; i += 2) {
+            bool prime = true;
+            for(int j = 3; j * j <= i; j += 2) {
+                if(i % j == 0) {
+                    prime = false;
+                    break;
+                }
+            }
+            if(prime) ans++;
         }
+        return ans;
     }
 };
