@@ -7,7 +7,7 @@
  * Topics: Tree, Breadth-First Search, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-16T12:15:57.755Z
+ * Synced: 2026-10-16T12:16:45.222Z
  */
 
 }
@@ -31,3 +31,5 @@ class Solution {
     }
         if(ptr==NULL)   return 0;
         vector<vector<int>> ans(height, vector<int> (0,0));
+        lvltrav(root, ans)
+};
