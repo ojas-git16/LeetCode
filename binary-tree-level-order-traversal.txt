@@ -7,11 +7,10 @@
  * Topics: Tree, Breadth-First Search, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-16T12:11:19.094Z
+ * Synced: 2026-10-16T12:12:04.847Z
  */
 
 // class Solution {
-// public:
 };
     }
         
@@ -30,6 +29,7 @@ class Solution {
  * Definition for a binary tree node.
 
 
-    int hgt(TreeNode* ptr, int cnt){
-        if(ptr->left)   hgt(ptr->left, cnt+1);
+    int hgt(TreeNode* ptr){
+        if(ptr->left)   hgt(ptr->left);
     }
+        if(ptr->right)  hgt(ptr-)
