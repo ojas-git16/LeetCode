@@ -1,18 +1,16 @@
 /*
  * Platform: LeetCode
- * Problem: 0
- * URL: https://leetcode.com/problems/binary-tree-preorder-traversal/description/
+ * Problem: Binary Tree Preorder Traversal
+ * URL: https://leetcode.com/problems/binary-tree-preorder-traversal/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Stack, Tree, Depth-First Search, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-16T04:23:59.937Z
+ * Synced: 2026-10-16T04:24:51.111Z
  */
 
-/**
- * Definition for a binary tree node.
- * struct TreeNode {
+* struct TreeNode {
  *     int val;
  *     TreeNode *left;
  *     TreeNode *right;
@@ -33,3 +31,6 @@ public:
             ans.push_back(st.top()->val);
             st.pop();
             if(ptr->right)  st.push(ptr->right);
+            if(ptr->left)   st.push(ptr->left);
+        }
+        return ans;
