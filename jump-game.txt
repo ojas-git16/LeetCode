@@ -1,0 +1,18 @@
+/*
+ * Platform: LeetCode
+ * Problem: 0
+ * URL: https://leetcode.com/problems/jump-game/description/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Array, Dynamic Programming, Greedy
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-16T05:08:34.476Z
+ */
+
+class Solution {
+public:
+    bool canJump(vector<int>& nums) {
+        
+    }
+};
