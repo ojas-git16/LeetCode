@@ -7,7 +7,7 @@
  * Topics: Tree, Breadth-First Search, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-16T12:06:30.255Z
+ * Synced: 2026-10-16T12:07:22.924Z
  */
 
 // class Solution {
@@ -15,7 +15,6 @@
 //     vector<vector<int>> levelOrder(TreeNode* root) {
 //         vector <vector<int>> ans;
 //         if(root==NULL)  return {};
-//         queue <TreeNode *> q;
 };
     }
         
