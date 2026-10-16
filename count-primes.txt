@@ -7,7 +7,7 @@
  * Topics: Array, Math, Enumeration, Number Theory, Primality Test, Sieve Theory, Prime Number Sieve
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-16T16:30:57.402Z
+ * Synced: 2026-10-16T16:44:29.318Z
  */
 
 class Solution {
