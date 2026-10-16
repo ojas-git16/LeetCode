@@ -7,14 +7,11 @@
  * Topics: Tree, Breadth-First Search, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-16T12:09:48.087Z
+ * Synced: 2026-10-16T12:10:33.587Z
  */
 
 // class Solution {
 // public:
-//     vector<vector<int>> levelOrder(TreeNode* root) {
-//         vector <vector<int>> ans;
-//         if(root==NULL)  return {};
 };
     }
         
@@ -31,3 +28,8 @@ class Solution {
  *     int val;
  * struct TreeNode {
  * Definition for a binary tree node.
+
+
+    int hgt(TreeNode* ptr, int cnt){
+        if(ptr->left)   
+    }
