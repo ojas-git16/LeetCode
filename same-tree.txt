@@ -1,31 +1,18 @@
 /*
  * Platform: LeetCode
- * Problem: 0
+ * Problem: 100. Same Tree
  * URL: https://leetcode.com/problems/same-tree/description/
- * Language: Problem List
+ * Language: Text
  * Difficulty: Easy
  * Topics: Tree, Depth-First Search, Breadth-First Search, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-20T14:34:20.978Z
+ * Synced: 2026-10-20T14:42:04.702Z
  */
 
-/**
- * Definition for a binary tree node.
- * struct TreeNode {
- *     int val;
- *     TreeNode *left;
- *     TreeNode *right;
- *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
- *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
- *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
- * };
- */
-class Solution {
-public:
-    bool isSameTree(TreeNode* p, TreeNode* q) {
-        if(p==nullptr || q==nullptr) return p==q;
-        if(p->val!=q->val) return false;
-        return isSameTree(p->left,q->left) && isSameTree(p->right,q->right);
-    }
-};
+[1,2,3]
+[1,2,3]
+[1,2]
+[1,null,2]
+[1,2,1]
+[1,1,2]
