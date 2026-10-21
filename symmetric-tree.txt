@@ -1,14 +1,14 @@
 /*
  * Platform: LeetCode
- * Problem: -
+ * Problem: 101. Symmetric Tree
  * URL: https://leetcode.com/problems/symmetric-tree/description/
  * Language: Text
  * Difficulty: Easy
  * Topics: Tree, Depth-First Search, Breadth-First Search, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-10-21T04:29:28.156Z
+ * Synced: 2026-10-21T05:03:06.966Z
  */
 
-[1,2,2,3,4,4,3]
-[1,2,2,null,3,null,3]
+Input: root = [1,2,2,3,4,4,3]
+Output: true
