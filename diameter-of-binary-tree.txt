@@ -1,14 +1,31 @@
 /*
  * Platform: LeetCode
- * Problem: 543. Diameter of Binary Tree
- * URL: https://leetcode.com/problems/diameter-of-binary-tree/description/
- * Language: Text
+ * Problem: Diameter of Binary Tree
+ * URL: https://leetcode.com/problems/diameter-of-binary-tree/
+ * Language: Problem List
  * Difficulty: Easy
  * Topics: Tree, Depth-First Search, Binary Tree, DP on Trees
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-10-21T04:04:17.504Z
+ * Synced: 2026-10-21T04:08:05.546Z
  */
 
-[1,2,3,4,5]
-[1,2]
+* };
+ */
+class Solution {
+public:
+    int func(TreeNode * ptr, int &ans){
+        if(ptr == nullptr) return 0;
+        int lh = func(ptr->left, ans);
+        int rh = func(ptr->right, ans);
+        ans = max(ans, lh+rh);
+        return 1+max(lh,rh);
+    }
+    int diameterOfBinaryTree(TreeNode* root) {
+        if(root == nullptr)     return 0;
+        int a = func(root, ans);
+        return ans;
+    }
+        int ans = 0;
+};
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
