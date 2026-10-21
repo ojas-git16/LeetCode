@@ -1,0 +1,14 @@
+/*
+ * Platform: LeetCode
+ * Problem: 543. Diameter of Binary Tree
+ * URL: https://leetcode.com/problems/diameter-of-binary-tree/description/
+ * Language: Text
+ * Difficulty: Easy
+ * Topics: Tree, Depth-First Search, Binary Tree, DP on Trees
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-21T04:04:17.504Z
+ */
+
+[1,2,3,4,5]
+[1,2]
