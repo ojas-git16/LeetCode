@@ -1,0 +1,14 @@
+/*
+ * Platform: Codeforces
+ * Problem: A. Distinct Numbers
+ * URL: https://codeforces.com/gym/102961/problem/A
+ * Language: GNU G++20 13.2 (64 bit, winlibs)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-10-24T05:36:26.470Z
+ */
+
+5
+2 3 2 2 3
