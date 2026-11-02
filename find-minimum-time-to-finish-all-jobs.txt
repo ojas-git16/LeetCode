@@ -1,0 +1,18 @@
+/*
+ * Platform: LeetCode
+ * Problem: 0
+ * URL: https://leetcode.com/problems/find-minimum-time-to-finish-all-jobs/
+ * Language: Problem List
+ * Difficulty: Hard
+ * Topics: Array, Dynamic Programming, Backtracking, Bit Manipulation, Bitmask
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-02T02:53:47.714Z
+ */
+
+class Solution {
+public:
+    int minimumTimeRequired(vector<int>& jobs, int k) {
+        
+    }
+};
