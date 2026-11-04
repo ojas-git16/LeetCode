@@ -1,0 +1,18 @@
+/*
+ * Platform: LeetCode
+ * Problem: 0
+ * URL: https://leetcode.com/problems/non-overlapping-intervals/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Array, Dynamic Programming, Greedy, Sorting
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-04T12:12:22.436Z
+ */
+
+class Solution {
+public:
+    int eraseOverlapIntervals(vector<vector<int>>& intervals) {
+        
+    }
+};
