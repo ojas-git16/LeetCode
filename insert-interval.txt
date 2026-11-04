@@ -1,0 +1,18 @@
+/*
+ * Platform: LeetCode
+ * Problem: 0
+ * URL: https://leetcode.com/problems/insert-interval/description/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Array
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-04T12:13:05.649Z
+ */
+
+class Solution {
+public:
+    vector<vector<int>> insert(vector<vector<int>>& intervals, vector<int>& newInterval) {
+        
+    }
+};
