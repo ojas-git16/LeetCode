@@ -1,19 +1,18 @@
 /*
  * Platform: LeetCode
- * Problem: 1353. Maximum Number of Events That Can Be Attended
- * URL: https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/description/
- * Language: Text
+ * Problem: I have additional test cases
+ * URL: https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/
+ * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Greedy, Sorting, Heap (Priority Queue)
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-05T13:30:52.101Z
+ * Synced: 2026-11-05T13:31:53.263Z
  */
 
-Input: events = [[1,2],[2,3],[3,4]]
-Output: 3
-Explanation: You can attend all the three events.
-One way to attend them all is as shown.
-Attend the first event on day 1.
-Attend the second event on day 2.
-Attend the third event on day 3.
+class Solution {
+public:
+    int maxEvents(vector<vector<int>>& events) {
+        
+    }
+};
