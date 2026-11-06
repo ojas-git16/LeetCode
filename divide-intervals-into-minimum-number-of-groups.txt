@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Divide Intervals Into Minimum Number of Groups
- * URL: https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups/description/
+ * URL: https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Two Pointers, Greedy, Sorting, Heap (Priority Queue), Prefix Sum
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-06T22:57:57.092Z
+ * Synced: 2026-11-06T22:58:59.258Z
  */
 
 class Solution {
