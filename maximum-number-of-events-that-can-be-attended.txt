@@ -7,7 +7,7 @@
  * Topics: Array, Greedy, Sorting, Heap (Priority Queue)
  * Runtime: 36 ms
  * Memory: 76.30 MB
- * Synced: 2026-11-06T22:24:34.262Z
+ * Synced: 2026-11-06T22:37:44.798Z
  */
 
 vector<int> nextDay(maxDay + 2);
