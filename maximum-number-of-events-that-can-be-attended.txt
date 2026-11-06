@@ -1,18 +1,33 @@
 /*
  * Platform: LeetCode
  * Problem: I have additional test cases
- * URL: https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/
+ * URL: https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/solutions/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Greedy, Sorting, Heap (Priority Queue)
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-06T21:59:13.960Z
+ * Synced: 2026-11-06T22:14:34.622Z
  */
 
-class Solution {
-public:
-    int maxEvents(vector<vector<int>>& events) {
-        
-    }
-};
+while (!minHeap.empty() && minHeap.top() < day) {
+            // Step 4.2: Remove expired events
+
+            }
+                i++;
+                minHeap.push(events[i][1]);
+            while (i < n && events[i][0] == day) {
+            // Step 4.1: Add all events starting today
+        for (int day = 1; day <= lastDay; day++) {
+        // Step 4: Simulate each day
+
+            lastDay = max(lastDay, e[1]);
+        for (const auto& e : events)
+        int lastDay = 0;
+        // Step 3: Find the last day to simulate
+
+        int n = events.size();
+        int count = 0;
+        int i = 0;
+
+        priority_queue<int, vector<int>, greater<int>> minHeap;
