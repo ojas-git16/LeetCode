@@ -7,26 +7,26 @@
  * Topics: Array, Greedy, Sorting, Heap (Priority Queue)
  * Runtime: 36 ms
  * Memory: 76.30 MB
- * Synced: 2026-11-06T22:37:44.798Z
+ * Synced: 2026-11-06T22:38:38.872Z
  */
 
-vector<int> nextDay(maxDay + 2);
-        for (int d = 0; d < nextDay.size(); ++d) {
-            nextDay[d] = d;
-        }
+for (int day = 1; day <= lastDay; day++) {
+        // Step 4: Simulate each day
 
+            lastDay = max(lastDay, e[1]);
+        for (const auto& e : events)
+        int lastDay = 0;
+        // Step 3: Find the last day to simulate
+
+        int n = events.size();
         int count = 0;
-        for (const auto& evt : events) {
-            int start = evt[0];
-            int end = evt[1];
-            int day = findNext(nextDay, start);
-            if (day <= end) {
-                ++count;
-                nextDay[day] = findNext(nextDay, day + 1);
-            }
-        }
+        int i = 0;
 
-        return count;
-    }
-        }
-            }
+        priority_queue<int, vector<int>, greater<int>> minHeap;
+        // Step 2: Min-heap for end days
+
+        sort(events.begin(), events.end());
+        // Step 1: Sort events by start day
+    int maxEvents(vector<vector<int>>& events) {
+public:
+class Solution {
