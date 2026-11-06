@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: I have additional test cases
- * URL: https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/solutions/
+ * URL: https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Greedy, Sorting, Heap (Priority Queue)
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-06T22:14:34.622Z
+ * Synced: 2026-11-06T22:15:20.231Z
  */
 
 while (!minHeap.empty() && minHeap.top() < day) {
@@ -23,11 +23,10 @@ while (!minHeap.empty() && minHeap.top() < day) {
 
             lastDay = max(lastDay, e[1]);
         for (const auto& e : events)
-        int lastDay = 0;
-        // Step 3: Find the last day to simulate
+                minHeap.pop();
+            }
 
-        int n = events.size();
-        int count = 0;
-        int i = 0;
-
-        priority_queue<int, vector<int>, greater<int>> minHeap;
+            // Step 4.3: Attend one event with earliest end
+            if (!minHeap.empty()) {
+                minHeap.pop();
+                count++;
