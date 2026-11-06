@@ -7,7 +7,7 @@
  * Topics: Array, Greedy, Sorting, Heap (Priority Queue)
  * Runtime: 36 ms
  * Memory: 76.30 MB
- * Synced: 2026-11-06T22:38:38.872Z
+ * Synced: 2026-11-06T22:39:24.472Z
  */
 
 for (int day = 1; day <= lastDay; day++) {
