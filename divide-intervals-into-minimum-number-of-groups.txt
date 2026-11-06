@@ -1,14 +1,18 @@
 /*
  * Platform: LeetCode
- * Problem: -
+ * Problem: Divide Intervals Into Minimum Number of Groups
  * URL: https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups/description/
- * Language: Text
+ * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Two Pointers, Greedy, Sorting, Heap (Priority Queue), Prefix Sum
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-05T13:05:33.652Z
+ * Synced: 2026-11-06T22:47:47.620Z
  */
 
-[[5,10],[6,8],[1,5],[2,3],[1,10]]
-[[1,3],[5,6],[8,10],[11,13]]
+class Solution {
+public:
+    int minGroups(vector<vector<int>>& intervals) {
+        
+    }
+};
