@@ -7,7 +7,7 @@
  * Topics: Array, Greedy, Sorting, Heap (Priority Queue)
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-06T22:15:20.231Z
+ * Synced: 2026-11-06T22:16:25.609Z
  */
 
 while (!minHeap.empty() && minHeap.top() < day) {
@@ -17,12 +17,6 @@ while (!minHeap.empty() && minHeap.top() < day) {
                 i++;
                 minHeap.push(events[i][1]);
             while (i < n && events[i][0] == day) {
-            // Step 4.1: Add all events starting today
-        for (int day = 1; day <= lastDay; day++) {
-        // Step 4: Simulate each day
-
-            lastDay = max(lastDay, e[1]);
-        for (const auto& e : events)
                 minHeap.pop();
             }
 
@@ -30,3 +24,9 @@ while (!minHeap.empty() && minHeap.top() < day) {
             if (!minHeap.empty()) {
                 minHeap.pop();
                 count++;
+            }
+
+            // Step 5: Early stop
+            if (i == n && minHeap.empty())
+                break;
+        }
