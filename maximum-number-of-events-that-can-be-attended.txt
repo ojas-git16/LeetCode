@@ -7,7 +7,7 @@
  * Topics: Array, Greedy, Sorting, Heap (Priority Queue)
  * Runtime: 36 ms
  * Memory: 76.30 MB
- * Synced: 2026-11-06T22:39:24.472Z
+ * Synced: 2026-11-06T22:40:42.579Z
  */
 
 for (int day = 1; day <= lastDay; day++) {
@@ -23,10 +23,11 @@ for (int day = 1; day <= lastDay; day++) {
         int i = 0;
 
         priority_queue<int, vector<int>, greater<int>> minHeap;
-        // Step 2: Min-heap for end days
+            // Step 4.1: Add all events starting today
+            while (i < n && events[i][0] == day) {
+                minHeap.push(events[i][1]);
+                i++;
+            }
 
-        sort(events.begin(), events.end());
-        // Step 1: Sort events by start day
-    int maxEvents(vector<vector<int>>& events) {
-public:
-class Solution {
+            // Step 4.2: Remove expired events
+            while (!minHeap.empty() && minHeap.top() < day) {
