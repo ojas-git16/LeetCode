@@ -5,28 +5,29 @@
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Two Pointers, Greedy, Sorting, Heap (Priority Queue), Prefix Sum
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-11-06T23:34:32.715Z
+ * Synced: 2026-11-06T23:44:17.700Z
  */
 
-class Solution {
-public:
-    int minGroups(vector<vector<int>>& intervals) {
-        int i=1, j=0;
-        int n = intervals.size();
+int n = intervals.size();
         sort(intervals.begin(), intervals.end());
         while(i<n){
-            if(intervals[i][0] < intervals[j][1]){
+            if(pq.empty() || intervals[i][0] < pq.top()){
         }
-        int ans=0, grp=1;
+        int ans=1, grp=1;
                 grp++;
                 ans=max(ans,grp);
             }
             else{
-
                 i++;
-                gr
+                grp--;
             }
-    }
-};
+                j++;
+        priority_queue<int, vector<int>, greater<int>> pq;
+                pq.push(intervals[j][1]);
+                pq.pop();
+        int i=1, j=0;
+    int minGroups(vector<vector<int>>& intervals) {
+public:
+        pq.push(intervals[0][1]);
