@@ -7,18 +7,19 @@
  * Topics: Array, Two Pointers, Greedy, Sorting, Heap (Priority Queue), Prefix Sum
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-06T23:28:05.341Z
+ * Synced: 2026-11-06T23:28:50.574Z
  */
 
 class Solution {
 public:
     int minGroups(vector<vector<int>>& intervals) {
-        int i=0, j=0;
+        int i=1, j=0;
         int n = intervals.size();
         sort(intervals.begin(), intervals.end());
         while(i<n){
             if(intervals[i][0] < intervals[j][1])
         }
     }
-        int ans=0, grp=0;
+        int ans=0, grp=1;
+                grp
 };
