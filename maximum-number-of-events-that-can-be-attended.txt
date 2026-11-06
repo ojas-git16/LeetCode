@@ -7,26 +7,26 @@
  * Topics: Array, Greedy, Sorting, Heap (Priority Queue)
  * Runtime: 36 ms
  * Memory: 76.30 MB
- * Synced: 2026-11-06T22:45:01.480Z
+ * Synced: 2026-11-06T22:45:49.888Z
  */
 
-// Step 4.2: Remove expired events
-            while (!minHeap.empty() && minHeap.top() < day) {
-                minHeap.pop();
-            }
-
-            // Step 4.3: Attend one event with earliest end
+// Step 4.3: Attend one event with earliest end
             if (!minHeap.empty()) {
                 minHeap.pop();
-                count++;
             }
+                minHeap.pop();
+            // Step 4.2: Remove expired events
+            while (!minHeap.empty() && minHeap.top() < day) {
 
-            // Step 5: Early stop
-            if (i == n && minHeap.empty())
-                break;
-        }
-
-        // Step 6: Return result
-        return count;
-    }
             }
+                i++;
+                minHeap.push(events[i][1]);
+            while (i < n && events[i][0] == day) {
+            // Step 4.1: Add all events starting today
+        for (int day = 1; day <= lastDay; day++) {
+        // Step 4: Simulate each day
+
+            lastDay = max(lastDay, e[1]);
+        for (const auto& e : events)
+        int lastDay = 0;
+        // Step 3: Find the last day to simulate
