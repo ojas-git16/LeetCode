@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: I have additional test cases
- * URL: https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/submissions/2190978916/
+ * URL: https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Greedy, Sorting, Heap (Priority Queue)
  * Runtime: 36 ms
  * Memory: 76.30 MB
- * Synced: 2026-11-06T22:19:15.214Z
+ * Synced: 2026-11-06T22:20:15.720Z
  */
 
 }
@@ -24,9 +24,9 @@ public:
     int maxEvents(vector<vector<int>>& events) {
     }
 
-        }
         return nextDay[day];
-            nextDay[day] = findNext(nextDay, nextDay[day]);
-        if (nextDay[day] != day) {
-    int findNext(vector<int>& nextDay, int day) {
-class Solution {
+
+        vector<int> nextDay(maxDay + 2);
+        for (int d = 0; d < nextDay.size(); ++d) {
+            nextDay[d] = d;
+        }
