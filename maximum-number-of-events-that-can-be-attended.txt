@@ -7,21 +7,10 @@
  * Topics: Array, Greedy, Sorting, Heap (Priority Queue)
  * Runtime: 36 ms
  * Memory: 76.30 MB
- * Synced: 2026-11-06T22:22:18.328Z
+ * Synced: 2026-11-06T22:23:22.602Z
  */
 
-}
-            }
-                maxDay = evt[1];
-            if (evt[1] > maxDay) {
-        for (const auto& evt : events) {
-        int maxDay = 0;
-
-        });
-            return a[1] < b[1];
-        sort(events.begin(), events.end(), [](const vector<int>& a, const vector<int>& b) {
-
-        vector<int> nextDay(maxDay + 2);
+vector<int> nextDay(maxDay + 2);
         for (int d = 0; d < nextDay.size(); ++d) {
             nextDay[d] = d;
         }
@@ -31,3 +20,13 @@
             int start = evt[0];
             int end = evt[1];
             int day = findNext(nextDay, start);
+            if (day <= end) {
+                ++count;
+                nextDay[day] = findNext(nextDay, day + 1);
+            }
+        }
+
+        return count;
+    }
+};
+        }
