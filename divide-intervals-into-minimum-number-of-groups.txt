@@ -7,7 +7,7 @@
  * Topics: Array, Two Pointers, Greedy, Sorting, Heap (Priority Queue), Prefix Sum
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-06T23:26:39.306Z
+ * Synced: 2026-11-06T23:28:05.341Z
  */
 
 class Solution {
@@ -17,7 +17,7 @@ public:
         int n = intervals.size();
         sort(intervals.begin(), intervals.end());
         while(i<n){
-            
+            if(intervals[i][0] < intervals[j][1])
         }
     }
         int ans=0, grp=0;
