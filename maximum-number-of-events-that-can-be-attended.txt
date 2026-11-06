@@ -7,7 +7,7 @@
  * Topics: Array, Greedy, Sorting, Heap (Priority Queue)
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-06T05:59:05.260Z
+ * Synced: 2026-11-06T10:03:46.274Z
  */
 
 class Solution {
