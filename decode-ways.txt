@@ -1,0 +1,18 @@
+/*
+ * Platform: LeetCode
+ * Problem: Decode Ways
+ * URL: https://leetcode.com/problems/decode-ways/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: String, Dynamic Programming
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-15T14:57:49.527Z
+ */
+
+class Solution {
+public:
+    int numDecodings(string s) {
+        
+    }
+};
