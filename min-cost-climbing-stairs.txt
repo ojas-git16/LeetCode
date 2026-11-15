@@ -1,0 +1,18 @@
+/*
+ * Platform: LeetCode
+ * Problem: 0
+ * URL: https://leetcode.com/problems/min-cost-climbing-stairs/description/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Array, Dynamic Programming
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-15T14:27:44.262Z
+ */
+
+class Solution {
+public:
+    int minCostClimbingStairs(vector<int>& cost) {
+        
+    }
+};
