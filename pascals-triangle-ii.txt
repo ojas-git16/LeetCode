@@ -1,18 +1,25 @@
 /*
  * Platform: LeetCode
- * Problem: 0
- * URL: https://leetcode.com/problems/pascals-triangle-ii/description/
+ * Problem: Intuition
+ * URL: https://leetcode.com/problems/pascals-triangle-ii/submissions/2196677695/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Dynamic Programming
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-15T14:24:50.969Z
+ * Synced: 2026-11-15T14:25:39.587Z
  */
 
 class Solution {
 public:
     vector<int> getRow(int rowIndex) {
-        
+        vector<int> res(1, 1);
+        long long prev = 1;
+        for(int k = 1; k <= rowIndex; k++) {
+            long long next_val = prev * (rowIndex - k + 1) / k;
+            res.push_back(next_val);
+            prev = next_val;
+        }
+        return res;
     }
 };
