@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Decode Ways
- * URL: https://leetcode.com/problems/decode-ways/description/
+ * URL: https://leetcode.com/problems/decode-ways/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: String, Dynamic Programming
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-11-15T15:52:52.179Z
+ * Synced: 2026-11-15T15:54:11.175Z
  */
 
 class Solution {
