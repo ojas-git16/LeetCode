@@ -1,18 +1,23 @@
 /*
  * Platform: LeetCode
  * Problem: Min Cost Climbing Stairs
- * URL: https://leetcode.com/problems/min-cost-climbing-stairs/
+ * URL: https://leetcode.com/problems/min-cost-climbing-stairs/submissions/2196695158/
  * Language: Problem List
- * Difficulty: Easy
- * Topics: Array, Dynamic Programming
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-11-15T14:55:06.542Z
+ * Difficulty: Medium
+ * Topics: Uncategorized
+ * Runtime: 0 ms
+ * Memory: 17.41 MB
+ * Synced: 2026-11-15T14:55:53.181Z
  */
 
-class Solution {
-public:
-    int minCostClimbingStairs(vector<int>& cost) {
-        
-    }
-};
+1class Solution {
+2public:
+3    int minCostClimbingStairs(vector<int>& cost) {
+4        int n=cost.size();
+5        for(int i=2;i<n;i++)
+6        {
+7            cost[i]+=min(cost[i-1],cost[i-2]);
+8        }
+9        return min(cost[n-1],cost[n-2]);
+10    }
+11};
