@@ -1,0 +1,18 @@
+/*
+ * Platform: LeetCode
+ * Problem: 0
+ * URL: https://leetcode.com/problems/calculate-digit-sum-of-a-string/?envType=daily-question&envId=2026-11-16
+ * Language: Daily Question
+ * Difficulty: Easy
+ * Topics: String, Simulation
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-11-16T16:37:56.953Z
+ */
+
+class Solution {
+public:
+    string digitSum(string s, int k) {
+        
+    }
+};
